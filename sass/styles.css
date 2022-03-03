@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.button, body section .button-info {
+  background-color: gray;
+  border-radius: 10px;
+  border: 1px solid black;
+  color: white;
+  padding: .625rem;
+  height: 3.75rem;
+}
+
+body nav {
+  background-color: #fbff00;
+}
+
+body nav .nav-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body nav .nav-items li {
+  list-style-type: none;
+}
+
+body section .button-info {
+  background-color: #3490e7;
+}
+/*# sourceMappingURL=styles.css.map */

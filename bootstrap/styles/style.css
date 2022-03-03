@@ -1,0 +1,18 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+#banner{height: 80px; background-color: rgb(94, 73, 58); display: flex; align-items: center; justify-content: center;}
+#top_menu{height: 20px; background-color: rgb(204, 142, 126); display: flex; align-items: center; justify-content: center;}
+#foot{height: 20px; background-color: rgb(94, 73, 58);display: flex; align-items: center; justify-content: center;}
+#main { height: 150px; background: rgb(242, 242, 242); display: flex; align-items: center; justify-content: center; }
+#left_menu { height: 440px; background: rgb(255, 150, 30); display: flex; align-items: center; justify-content: center;}
+#photol { height: 20px; background: rgb(212, 93, 117); display: flex; align-items: center; justify-content: center;}
+#photor { height: 20px; background: rgb(0, 158, 177); display: flex; align-items: center; justify-content: center;}
+
+
+
+body{
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+

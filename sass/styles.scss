@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'button';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    nav{
+        background-color: $primary-color;
+        .nav-items{
+            display: flex;
+            justify-content: space-around;
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+
+    section{
+        .button-info{
+            @extend .button;
+            background-color: rgb(52, 144, 231);
+        }
+    }
+
+}
